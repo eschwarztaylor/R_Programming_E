@@ -1,10 +1,10 @@
 - Class: meta
-  Course: R Programming E
-  Lesson: Basic Building Blocks
-  Author: Nick Carchedi
+  Course: R_Programming_FA2020
+  Lesson: R_basics
+  Author: Erika Schwarz Taylor adapted from Nick Carchedi
   Type: Standard
-  Organization: JHU Biostat
-  Version: 2.2.0
+  Organization: StMU
+  Version: 2.4.5
 
 - Class: text
   Output: In this lesson, we will explore some basic building blocks of the R programming
@@ -41,14 +41,6 @@
 - Class: text
   Output: Think of the assignment operator as an arrow. You are assigning the value
     on the right side of the arrow to the variable name on the left side of the arrow.
-
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so
-    that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
   
 - Class: cmd_question
   Output: To assign the result of 5 + 7 to a new variable called x, you type x <-
